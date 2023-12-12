@@ -40,7 +40,7 @@ document.getElementById("dec").addEventListener("click", () => {
 
 document.getElementById("random").addEventListener("click", () => {
     let payload = Math.floor(Math.random() * 100)
-    store.dispatch({type: "random", payload:payload})
+    store.dispatch({type: "random", payload: payload})
 })
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
